@@ -30,7 +30,7 @@ import com.example.cryptoapicompose.viewmodel.CryptodetailViewModel
 
 @Composable
 fun CryptoDetailScreen(
-    id: Int,
+    id: String,
     price: String,
     navController : NavController,
     viewModel: CryptodetailViewModel = hiltViewModel()
