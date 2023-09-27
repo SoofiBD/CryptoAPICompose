@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
                         },
                     )) {
                         val cryptoId = remember {
-                         it.arguments?.getInt("cryptoId")
+                         it.arguments?.getString("cryptoId")
                         }
 
                         val cryptoPrice = remember {
