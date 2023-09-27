@@ -49,7 +49,7 @@ fun CryptoListScreen(
         modifier = Modifier.fillMaxSize()
     ) {
         Column {
-            Text("Crypto Crazy",modifier = Modifier
+            Text("Crypto List",modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 20.dp),
                 textAlign = TextAlign.Center,
@@ -172,7 +172,7 @@ fun CryptoRow(navController: NavController,crypto: CryptoListItem) {
         Text(text = crypto.price,
             style = MaterialTheme.typography.bodyMedium,
             modifier = Modifier.padding(2.dp),
-            color = MaterialTheme.colorScheme.primary
+            color = MaterialTheme.colorScheme.onPrimary
         )
     }
 }
